@@ -4,6 +4,7 @@ I think I changed all of the paths to be generic /path/to/your/data style things
 
 $ pwd
 > /scratch365/nmcadam2/workspace
+
 $qsub ./scripts/trimming.sh
 
 in other words don't go down into the script directory to run them, nor should you copy them into your regular workspace directory. If you have any questions email me
